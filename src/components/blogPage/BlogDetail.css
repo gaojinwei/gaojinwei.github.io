@@ -1,0 +1,40 @@
+@import '~highlight.js/styles/atelier-forest-dark.css';
+
+.blogWrapper {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 1.1em;
+  max-width: 60%;
+}
+
+.article-detail {
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+}
+
+.article-detail p code {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 0 4px;
+  color: rgb(29, 31, 33);
+  border-radius: 3px;
+  line-height: 1.4;
+  letter-spacing: 0em;
+  background: rgb(200, 200, 200);
+  border: 1px solid #ddd;
+  font-family: Consolas;
+}
+
+.article-detail pre code {
+  display: block;
+  margin: 20px 0px;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: rgb(29, 31, 33);
+  color: rgb(200, 200, 200);
+  padding: 10px 20px;
+  font-family: Consolas;
+  line-height: 1.4;
+  letter-spacing: 0em;
+  border-radius: 10px;
+}

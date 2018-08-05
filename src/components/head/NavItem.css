@@ -1,0 +1,29 @@
+.navItem{
+	display: flex; 
+	align-items: center; 
+	color: #ffffff; 
+	text-decoration: none; 
+	font-size:18px; 
+	padding-left:20px; 
+	padding-right:20px;
+	position: relative;
+}
+
+.navItem:hover:not(:focus){
+	color: #61dafb;
+}
+
+.navItem:focus{
+	background-color: #373940;
+	color: #ffffff;
+}
+
+.navInActive {
+	position: absolute;
+    bottom: -1px;
+    height: 4px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    background: rgb(97, 218, 251);
+}

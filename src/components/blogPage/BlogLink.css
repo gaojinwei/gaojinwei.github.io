@@ -1,0 +1,13 @@
+.blgLi {
+	margin-bottom: 1rem;
+}
+
+.blogA {
+	color: #21a4d0;
+	border-bottom: 1px solid #e7f3f7;
+}
+
+.blogA:hover {
+	color: #5d859a;
+	border-bottom-width: 2px;
+}

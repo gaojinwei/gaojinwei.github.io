@@ -1,0 +1,11 @@
+.blogsWrapper {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 1.1em;
+	max-width: 650px;
+}
+
+.blogUl {
+	list-style: circle;
+	padding-left: 3rem;
+}
