@@ -63,7 +63,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "318792bcc9546ad51040"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "589ba17d480a9934a37b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1207,7 +1207,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".header{\\r\\n\\tbackground-color: #20232a;\\r\\n\\twidth: 100%; \\r\\n\\tposition: fixed; \\r\\n\\ttop: 0; \\r\\n\\tleft: 0\\r\\n}\\r\\n\\r\\n.headerDiv{\\r\\n\\tdisplay: flex; \\r\\n\\tjustify-content:space-between; \\r\\n\\twidth: 90%; \\r\\n\\theight: 60px; \\r\\n\\tmargin: auto\\r\\n}\\r\\n\\r\\n.avatar{\\r\\n\\tdisplay: flex; width: calc(100% / 6); \\r\\n\\theight: 100%; \\r\\n\\talign-items: center; \\r\\n\\ttext-decoration: none\\r\\n}\\r\\n\\r\\n.avatarSpan{\\r\\n\\tfont-size:20px; \\r\\n\\tfont-weight:700; \\r\\n\\tcolor: #ffffff; \\r\\n\\tmargin-left: 10px\\r\\n}\\r\\n\\r\\n.nav{\\r\\n\\tdisplay: flex;\\r\\n}\\r\\n\\r\\n.navItem{\\r\\n\\tdisplay: flex; \\r\\n\\talign-items: center; \\r\\n\\tcolor: #ffffff; \\r\\n\\ttext-decoration: none; \\r\\n\\tfont-size:18px; \\r\\n\\tpadding-left:20px; \\r\\n\\tpadding-right:20px;\\r\\n}\\r\\n\\r\\n.navItem:hover:not(:focus){\\r\\n\\tcolor: #61dafb;\\r\\n}\\r\\n\\r\\n.navItem:focus{\\r\\n\\tbackground-color: #373940;\\r\\n\\tcolor: #ffffff;\\r\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/structure/Head.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".header{\\r\\n\\tbackground-color: #20232a;\\r\\n\\twidth: 100%; \\r\\n\\tposition: fixed; \\r\\n\\ttop: 0; \\r\\n\\tleft: 0\\r\\n}\\r\\n\\r\\n.headerDiv{\\r\\n\\tdisplay: flex; \\r\\n\\tjustify-content:space-between; \\r\\n\\twidth: 90%; \\r\\n\\theight: 60px; \\r\\n\\tmargin: auto\\r\\n}\\r\\n\\r\\n.avatar{\\r\\n\\tdisplay: flex; \\r\\n\\twidth: calc(100% / 6); \\r\\n\\theight: 100%; \\r\\n\\talign-items: center; \\r\\n\\ttext-decoration: none\\r\\n }\\t\\r\\n\\r\\n@media (max-width: 400px) {\\r\\n  .avatar{\\r\\n\\tdisplay: flex; \\r\\n\\twidth: calc(100% / 3); \\r\\n\\theight: 100%; \\r\\n\\talign-items: center; \\r\\n\\ttext-decoration: none\\r\\n  }\\t\\r\\n}\\r\\n\\r\\n\\r\\n.avatarSpan{\\r\\n\\tfont-size:20px; \\r\\n\\tfont-weight:700; \\r\\n\\tcolor: #ffffff; \\r\\n\\tmargin-left: 10px\\r\\n}\\r\\n\\r\\n.nav{\\r\\n\\tdisplay: flex;\\r\\n}\\r\\n\\r\\n.navItem{\\r\\n\\tdisplay: flex; \\r\\n\\talign-items: center; \\r\\n\\tcolor: #ffffff; \\r\\n\\ttext-decoration: none; \\r\\n\\tfont-size:18px; \\r\\n\\tpadding-left:20px; \\r\\n\\tpadding-right:20px;\\r\\n}\\r\\n\\r\\n.navItem:hover:not(:focus){\\r\\n\\tcolor: #61dafb;\\r\\n}\\r\\n\\r\\n.navItem:focus{\\r\\n\\tbackground-color: #373940;\\r\\n\\tcolor: #ffffff;\\r\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/structure/Head.css?./node_modules/css-loader");
 
 /***/ }),
 
