@@ -7,3 +7,30 @@
 	align-items: center; 
 	justify-content: center;
 }
+
+.musicSpan {
+	position: fixed;
+	left: 120px;
+	top: 300px;
+}
+
+.music {
+	position: fixed;
+	left: 60px;
+	top: 120px;
+	cursor: pointer;
+	animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+@keyframes slidein {
+  from {
+  }
+
+  to {
+    transform: rotate(360deg);  
+  }
+}

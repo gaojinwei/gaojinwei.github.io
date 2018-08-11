@@ -1,8 +1,10 @@
 import React, { Component} from "react";
 import axios from 'axios';
 import marked from 'marked';
+/*import hljs from 'highlight.js';*/
 import hljs from 'highlight.js/lib/highlight';
 import javascript from 'highlight.js/lib/languages/javascript';
+import xml from 'highlight.js/lib/languages/xml';
 
 import {BlogLink} from "./BlogLink.js";
 import Loading from "../common/Loading";
@@ -10,6 +12,7 @@ import Loading from "../common/Loading";
 import "./BlogDetail.css";
 
 hljs.registerLanguage('javascript', javascript);
+hljs.registerLanguage('xml', xml);
 marked.setOptions({
   highlight: code => hljs.highlightAuto(code).value,
 });
