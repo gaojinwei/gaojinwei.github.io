@@ -9,7 +9,6 @@ import Blogs from "../blogPage/Blogs.js";
 import BlogDetail from "../blogPage/BlogDetail.js";
 
 import ocean from "../../../music/ocean.mp3"
-import yuan from "./yuan.png"
 
 class MainContent extends React.Component {
 
@@ -41,8 +40,7 @@ class MainContent extends React.Component {
 	render(){
 		return (
 			<main className="main">
-				<span className="musicSpan">音乐</span>
-				<img ref={this.imgRef} className="music" onClick={this.handleClick} src={yuan} />
+				<div title="音乐" className="music" ref={this.imgRef} onClick={this.handleClick}></div>
 				<audio loop ref={this.audioRef}>
 				  <source src={ocean} type="audio/mp3" />
 				</audio>
