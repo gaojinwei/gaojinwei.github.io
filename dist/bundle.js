@@ -63,7 +63,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b237a2ed2ed32e35b214"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2e84f0cd0e89b7279051"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1207,7 +1207,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".flexDiv {\\r\\n\\tdisplay: flex; \\r\\n\\tjustify-content: center;\\r\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/home/Home.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".flexDiv {\\r\\n\\tdisplay: flex; \\r\\n\\tjustify-content: center;\\r\\n}\\r\\n\\r\\n.flexColumn {\\r\\n\\tflex-direction: column;\\r\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/home/Home.css?./node_modules/css-loader");
 
 /***/ }),
 
@@ -2275,7 +2275,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./Loading.css */ \"./src/components/common/Loading.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Loading = function Loading(props) {\n\treturn _react2.default.createElement(\n\t\t'div',\n\t\tnull,\n\t\t'Loading...'\n\t);\n};\n\nexports.default = Loading;\n\n//# sourceURL=webpack:///./src/components/common/Loading.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./Loading.css */ \"./src/components/common/Loading.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Loading = function Loading(props) {\n\treturn _react2.default.createElement(\n\t\t'div',\n\t\tnull,\n\t\t'\\u62FC\\u547D\\u52A0\\u8F7D\\u4E2D...\\u522B\\u79BB\\u5F00\\uFF01'\n\t);\n};\n\nexports.default = Loading;\n\n//# sourceURL=webpack:///./src/components/common/Loading.js?");
 
 /***/ }),
 
@@ -2344,7 +2344,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n   value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./Home.css */ \"./src/components/home/Home.css\");\n\nvar _webwxgeticon = __webpack_require__(/*! ./webwxgeticon.jpg */ \"./src/components/home/webwxgeticon.jpg\");\n\nvar _webwxgeticon2 = _interopRequireDefault(_webwxgeticon);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Home() {\n   return _react2.default.createElement(\n      \"div\",\n      null,\n      _react2.default.createElement(\n         \"div\",\n         { className: \"flexDiv\" },\n         _react2.default.createElement(\"img\", { src: _webwxgeticon2.default, alt: \"\" })\n      ),\n      _react2.default.createElement(\n         \"div\",\n         { className: \"flexDiv\" },\n         _react2.default.createElement(\n            \"p\",\n            null,\n            \"\\u5408\\u5DE5\\u5927\\u7B2C\\u4E00\\u5415\\u5E03\"\n         )\n      )\n   );\n}\n\nexports.default = Home;\n\n//# sourceURL=webpack:///./src/components/home/Home.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n   value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./Home.css */ \"./src/components/home/Home.css\");\n\nvar _webwxgeticon = __webpack_require__(/*! ./webwxgeticon.jpg */ \"./src/components/home/webwxgeticon.jpg\");\n\nvar _webwxgeticon2 = _interopRequireDefault(_webwxgeticon);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Home() {\n   return _react2.default.createElement(\n      \"div\",\n      null,\n      _react2.default.createElement(\n         \"div\",\n         { className: \"flexDiv\" },\n         _react2.default.createElement(\"img\", { src: _webwxgeticon2.default, alt: \"\" })\n      ),\n      _react2.default.createElement(\n         \"div\",\n         { className: \"flexColumn\" },\n         _react2.default.createElement(\n            \"p\",\n            { className: \"flexDiv\" },\n            \"\\u7FE1\\u7FE0\\u6E56\\u7554\\u6492\\u8FC7\\u5C3F\"\n         ),\n         _react2.default.createElement(\n            \"p\",\n            { className: \"flexDiv\" },\n            \"\\u5C6F\\u6EAA\\u8DEF\\u65C1\\u7761\\u8FC7\\u89C9\"\n         ),\n         _react2.default.createElement(\n            \"p\",\n            { className: \"flexDiv\" },\n            \"\\u90A3\\u6E56\\u90A3\\u8DEF\\u4ECA\\u72B9\\u5728\"\n         ),\n         _react2.default.createElement(\n            \"p\",\n            { className: \"flexDiv\" },\n            \"\\u4E0D\\u89C1\\u5F53\\u5E74\\u5C11\\u5E74\\u52C7\"\n         )\n      )\n   );\n}\n\nexports.default = Home;\n\n//# sourceURL=webpack:///./src/components/home/Home.js?");
 
 /***/ }),
 
