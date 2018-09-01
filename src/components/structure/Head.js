@@ -1,5 +1,6 @@
 import React, { Component} from "react";
 import { Link } from "react-router-dom";
+import { withRouter } from 'react-router'
 
 import Nav from "../head/Nav.js";
 import "./Head.css";
@@ -12,6 +13,24 @@ class Head extends React.Component {
 
 	    this.handleClick = this.handleClick.bind(this);
 	    this.handleHomeClick = this.handleHomeClick.bind(this);
+	}
+
+	componentDidMount() {
+	  if (this.props.location.pathname.includes("blogs") ||
+	  	  this.props.location.pathname.includes("blog")
+	  	 ){
+	    this.setState(
+		    {
+		      ToggleOnIndex: 0
+		    }
+	    );
+	  } else if (this.props.location.pathname.includes("about")) {
+	    this.setState(
+		    {
+		      ToggleOnIndex: 1
+		    }
+	    );
+	  }
 	}
 
 	handleClick(index) {
@@ -46,4 +65,4 @@ class Head extends React.Component {
   	}
 }
 
-export default Head;
+export default withRouter(Head);
