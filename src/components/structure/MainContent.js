@@ -35,6 +35,7 @@ class MainContent extends React.Component {
 			node.pause();
 			imgNode.style.setProperty('animation-play-state', 'paused');
 		}
+		imgNode.classList.toggle("music-move");
 	}
 
 	render(){
